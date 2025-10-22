@@ -42,6 +42,7 @@ The app automatically loads the latest version from:
 ## 🧩 Project Structure
 
 co2_dashboard/
+│
 ├── src/
 │ ├── **init**.py
 │ ├── app.py
