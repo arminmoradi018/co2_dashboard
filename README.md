@@ -38,7 +38,7 @@ The app automatically loads the latest version from:
 [co2-data](https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv)
 
 ---
-
+```bash
 ## 🧩 Project Structure
 
 co2_dashboard/
@@ -58,7 +58,7 @@ co2_dashboard/
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🧪 Run Locally
