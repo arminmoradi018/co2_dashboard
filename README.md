@@ -164,5 +164,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 **Armin Moradi**
 🎓 AI student (3rd semester) at JKU Linz
-📘 This project was developed as part of one of my second-semester courses in Artificial Intelligence.
+📘 This project was developed as an assignment of one of my second-semester courses in Artificial Intelligence.
 📫 Arminmoradi018@gmail.com
