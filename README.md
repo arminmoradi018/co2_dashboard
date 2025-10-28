@@ -160,7 +160,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ---
 
-##👤 Author
+## 👤 Author
 
 **Armin Moradi**
 🎓 AI student (3rd semester) at JKU Linz
