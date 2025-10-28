@@ -160,9 +160,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ---
 
-👤 Author
+##👤 Author
 
-Armin Moradi
+**Armin Moradi**
 🎓 AI student (3rd semester) at JKU Linz
 📘 This project was developed as part of one of my second-semester courses in Artificial Intelligence.
 📫 Arminmoradi018@gmail.com
