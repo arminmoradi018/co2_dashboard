@@ -44,13 +44,13 @@ The app automatically loads the latest version from:
 co2_dashboard/
 │
 ├── src/
-│ ├── **init**.py
+│ ├── __init__.py
 │ ├── app.py
 │ ├── data_loader.py
 │ ├── server.py
 │ └── ui.py
 ├── test/
-│ ├── **init**.py
+│ ├── __init__.py
 │ └── test_app.py
 ├── .github/workflows/ci.yml
 ├── .gitignore
@@ -118,39 +118,6 @@ It performs the following steps:
 2. **Set up Python** – installs Python 3.11.
 3. **Install dependencies** – installs required packages from `requirements.txt`.
 4. **Run tests** – executes all Pytest tests located in the `test/` directory.
-
----
-
-### 🧩 Example Workflow File
-
-```yaml
-name: Tests
-
-on:
-  push:
-  pull_request:
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          pip install pytest
-
-      - name: Run tests
-        run: pytest
-```
 
 ---
 
