@@ -38,9 +38,9 @@ The app automatically loads the latest version from:
 [co2-data](https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv)
 
 ---
-```bash
-## 🧩 Project Structure
 
+## 🧩 Project Structure
+```bash
 co2_dashboard/
 │
 ├── src/
@@ -68,10 +68,16 @@ co2_dashboard/
 git clone https://github.com/arminmoradi018/co2_dashboard.git
 cd co2_dashboard
 
-# 2️⃣ Install dependencies
+# 2️⃣ Create & activate virtual environment
+python -m venv .venv
+.venv\Scripts\activate   # on Windows
+# or
+source .venv/bin/activate  # on macOS/Linux
+
+# 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-# 3️⃣ Run the Shiny app
+# 4️⃣ Run the Shiny app
 shiny run --reload --launch-browser src/app.py
 
 ```
@@ -87,11 +93,9 @@ This project includes a **Pytest-based test suite** verifying key functionality:
 3. **Visualization Validation** – Checks that Plotly-generated charts produce valid HTML (via BeautifulSoup).
 4. **World Map Data Integrity** – Validates country filtering and logical year ranges (1700–2100).
 
-All tests currently **pass successfully** both locally and in CI.
-
 ### 🧰 Running Tests Locally
 
-To run all tests locally, simply execute:
+To run all tests locally:
 
 ```bash
 pytest -v
@@ -127,9 +131,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 ---
 
-## 👤 Author
-
-**Armin Moradi**
-🎓 AI student (3rd semester) at JKU Linz
+## 👤 Author  
+**Armin Moradi**  
+🎓 AI student (3rd semester) at JKU Linz  
 📘 This project was developed as an assignment of one of my second-semester courses in Artificial Intelligence.
 📫 Arminmoradi018@gmail.com
