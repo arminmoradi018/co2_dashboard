@@ -88,10 +88,10 @@ shiny run --reload --launch-browser src/app.py
 
 This project includes a **Pytest-based test suite** verifying key functionality:
 
-1. **Data Loading** – Ensures the CO₂ dataset loads correctly and includes essential columns.
-2. **Data Caching** – Confirms `get_co2_data()` returns cached results for efficiency.
-3. **Visualization Validation** – Checks that Plotly-generated charts produce valid HTML (via BeautifulSoup).
-4. **World Map Data Integrity** – Validates country filtering and logical year ranges (1700–2100).
+1. 🗂️ **Data Loading** – Ensures the CO₂ dataset loads correctly and includes essential columns.
+2. ⚡ **Data Caching** – Confirms `get_co2_data()` returns cached results for efficiency.
+3. 📊 **Visualization Validation** – Checks that Plotly-generated charts produce valid HTML (via BeautifulSoup).
+4. 🗺️ **World Map Data Integrity** – Validates country filtering and logical year ranges (1700–2100).
 
 ### 🧰 Running Tests Locally
 
